@@ -1,0 +1,51 @@
+[
+  {
+    "id": "p1",
+    "title": "Impressum",
+    "slug": "impressum",
+    "content": "",
+    "inMenu": false,
+    "inFooter": true
+  },
+  {
+    "id": "p2",
+    "title": "Datenschutz",
+    "slug": "datenschutz",
+    "content": "",
+    "inMenu": false,
+    "inFooter": true
+  },
+  {
+    "id": "p3",
+    "title": "Versand & Zahlung",
+    "slug": "versand-zahlung",
+    "content": "",
+    "inMenu": false,
+    "inFooter": true
+  },
+  {
+    "id": "p4",
+    "title": "Angebote",
+    "slug": "angebote",
+    "content": "Entdecke unsere aktuellen Angebote und Spar-Sets.",
+    "inMenu": true,
+    "inFooter": true
+  },
+  {
+    "id": "p5",
+    "title": "Erklärung",
+    "slug": "erklärung",
+    "content": "Stell dir eine Zahnbürste vor, die gleichzeitig Zahnpasta ist – ganz ohne Plastik oder Chemie. Genau das ist Miswak.\n\nDieser kleine Zweig aus dem Salzbaum öffnet sich beim Kauen zu natürlichen Borsten und entfaltet seine magische Wirkung:\n\n· Strahlend weiß: Wirkt wie ein sanftes natürliches Bleichmittel.\n· Atem wie Neugeboren: Die ätherischen Öle killen Bakterien.\n· Immer & überready: Nur anfeuchten und loslegen.\n\nEinmal ausprobiert, wirst du nie wieder etwas anderes an deine Zähne lassen.\n\n👉 Sicher dir jetzt deinen Miswak und erlebe das reinste Mundgefühl deines Lebens!",
+    "inMenu": true,
+    "inFooter": true,
+    "productIds": ["1", "2"]
+  },
+  {
+    "id": "p6",
+    "title": "Anwendung",
+    "slug": "anwendung",
+    "content": "So benutzt du deinen Miswak richtig: 1. Rinde ca. 1cm abkauen. 2. Borsten weich kauen. 3. Zähne sanft bürsten.",
+    "inMenu": true,
+    "inFooter": true
+  }
+]

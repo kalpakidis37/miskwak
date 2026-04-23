@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #047857;
+  --color-secondary: #065f46;
+  --color-background: #ffffff;
+  --font-family-base: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --border-radius-base: 1.5rem; /* Default xl */
+}
+
+@theme {
+  --color-emerald-700: var(--color-primary);
+  --color-emerald-800: var(--color-secondary);
+  --font-sans: var(--font-family-base);
+  --radius-xl: var(--border-radius-base);
+  --radius-2xl: calc(var(--border-radius-base) * 1.2);
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+/* Button Style Overrides */
+[data-button-style="outline"] button:not(.p-2):not(.p-1):not(.p-3):not(.bg-stone-100):not(.bg-emerald-50) {
+  background-color: transparent !important;
+  border: 2px solid var(--color-primary) !important;
+  color: var(--color-primary) !important;
+}
+
+[data-button-style="outline"] button:not(.p-2):not(.p-1):not(.p-3):not(.bg-stone-100):not(.bg-emerald-50):hover {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
+
+[data-button-style="ghost"] button:not(.p-2):not(.p-1):not(.p-3):not(.bg-stone-100):not(.bg-emerald-50) {
+  background-color: transparent !important;
+  color: var(--color-primary) !important;
+  box-shadow: none !important;
+}
+
+[data-button-style="ghost"] button:not(.p-2):not(.p-1):not(.p-3):not(.bg-stone-100):not(.bg-emerald-50):hover {
+  background-color: rgba(4, 120, 87, 0.1) !important;
+}
+
+@layer utilities {
+  .mask-linear-fade {
+    mask-image: linear-gradient(to right, black 85%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  }
+}
